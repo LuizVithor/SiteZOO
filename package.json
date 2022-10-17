@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "install": "^0.13.0",
+    "swiper": "^8.4.2",
+  },
+  "name": "Swiper- Effect coverflow",
+  "tags": [
+    "swiper"
+  ]
+}

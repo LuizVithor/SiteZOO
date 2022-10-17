@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Zoológico Municipal de Guarulhos</title>
+    <link rel="icon" type="image/x-icon" href="/assets/Icon.png" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3a886567b9.js" crossorigin="anonymous"></script>
+    <link href="../animais/style-animais.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="/lib/animate/animate.min.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+
+
+    <!-- Template Stylesheet -->
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+<body id="page-top" class="background7">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="../index.html"> <img id="logo" src="/assets/Logo.png" alt="Zoológico de Guarulhos"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="animais.html">Todos animais</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicos.html">Nossos serviços</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Animais-->
+    <!-- Swiper -->
+    <div id="animais" class=" divtitle3">
+        <div class="filter3">
+            <h1 class="title3">Animais</h1>
+        </div>
+    </div>
+    <div class="espaço">
+    </div>
+    <section>
+        <div class="swiper2 mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <img src="/assets/Carrossel/02gambarini_779-24.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/anta.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/arara-canindé.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/arara-vermelha.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/Bugio-ruivo.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/cateto.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/ema.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/gato-do-mato.jpeg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/lontra.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/Mico-leão-de-cara-dourada.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/Mutum%20do%20sudeste.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/mutum-de-penacho.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/onca-pintada.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/onça-parda.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/papagaio-peito.png">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/Sagui-da-serra-escuro.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/tamanduá-bandeira.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/assets/Carrossel/Urubu-rei.jpg">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        let swiper = new Swiper(".mySwiper", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "3",
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                "@1.50": {
+                    slidesPerView: 3,
+                    spaceBetween: 50,
+                },
+            },
+            autoplay: {
+                pauseOnMouseEnter: true,
+                delay: 1500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            coverflowEffect: {
+                rotate: 60,
+                stretch: 0,
+                depth: 140,
+                modifier: 1,
+                slideShadows: false,
+            },
+        });
+    </script>
+    <!--button start-->
+
+    <div class="background2">
+        <a onclick="animallist() + animallist2()" class="jst btn btn-primary" >Veja uma lista de nossos animais</a>
+    </div>
+    <div id="hiddenlist" class="background4">
+        <div class="background6 textlist" id="animal"></div>
+        <div class="background3 textlist" id="animal2"></div>
+    </div>
+
+    <script>
+        var list = "Mutum do sudestex<br>" +
+            "Papagaio de peito roxo<br>" +
+            "Lobo guará<br>" +
+            "Gato do mato pequeno<br>" +
+            "Onça pintada<br>" +
+            "Onça parda<br>" +
+            "Arara vermelha<br>" +
+            "Lontra<br>" +
+            "Cateto<br>" +
+            "Urubu rei<br>" +
+            "Arara Canindé<br>" +
+            "Mutum de penacho<br>" +
+            "Tamanduá-bandeira<br>" +
+            "Anta<br>" +
+            "Mico-leão-de-cara-dourada<br>" +
+            "Sagui-da-serra-escuro<br>" +
+            "Bugio-ruivo<br>" +
+            "EMA<br>" +
+            "SAGUI DE TUFO BRANCO<br>" +
+            "SAUÁ<br>"
+
+        function animallist(){
+            document.getElementById("animal").innerHTML = list;
+            var x = document.getElementById("hiddenlist");
+            if (x.style.display === "none") {
+                x.style.display = "flex";
+            } else {
+                x.style.display = "none";
+            }
+        }
+
+    </script>
+
+
+    <script>
+        var list2 = "CISNE NEGRO <br>" +
+            "GANSO AFRICANO<br>" +
+            "IRERÊ<br>" +
+            "CÁGADO DE BARBICHA<br>" +
+            "TARTARUGA DE ORELHA VERMELHA<br>" +
+            "GAVIÃO CARIJÓ<br>" +
+            "GAVIÃO CARRAPATEIRO<br>" +
+            "GAVIÃO PERNILONGO<br>" +
+            "URUBU COMUM<br>" +
+            "SUINDARA<br>" +
+            "MOCHO ORELHUDO<br>" +
+            "CARCARÁ<br>" +
+            "VEADO CATINGUEIRO<br>" +
+            "JABUTI PIRANGA<br>" +
+            "TEIÚ ARGENTINO<br>" +
+            "IGUANA<br>" +
+            "CÁGADO CABEÇUDO<br>" +
+            "TARTARUGA MORDEDORA<br>" +
+            "TARTARUGA DO RIO COOTER<br>" +
+            "JIBOIA<br>" +
+            ""
+
+        function animallist2(){
+            document.getElementById("animal2").innerHTML = list2
+        }
+    </script>
+
+    <!-- Footer start-->
+    <section>
+        <header class="backfooter container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+            <div class="filterfooter">
+                <div class="container py-5">
+                    <div class="row g-5">
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="text-light mb-4 align-items">Endereço</h5>
+                            <div class="align-items-2">
+                                <div class="align-items">
+                                    <i class=" mb-2 icond fa-solid fa-location-dot"></i>
+                                    <p class="textfooter1 mb-2">Rua Dona Gloria Pagnoncelli, 344 - Jardim Rosa de França, Guarulhos-SP</p>
+                                </div>
+                                <div class="align-items">
+                                    <i class="mb-2 icond fa fa-phone-alt me-3"></i>
+                                    <p class="mb-2">(11) 2455-6497</p>
+                                </div>
+                                <div class="align-items">
+                                    <i class="mb-2 icond fa fa-envelope me-3"></i>
+                                    <p class="mb-2">manejo.zooguarulhos@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="copyright">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                <a class="border-bottom" href="https://zoologico.guarulhos.sp.gov.br/contato.html">Zoológico de Guarulhos</a>, Todos os Direitos Reservados.
+                            </div>
+                            <div class="col-md-6 text-center text-md-end">
+                                Feito por <a class="border-bottom" href="https://github.com/LuizVithor">Luiz Vithor</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </section>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="../js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+
+</body>
+</html>
